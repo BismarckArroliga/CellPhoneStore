@@ -1,0 +1,7 @@
+C:\CellPhoneStore\capaNegocios\bin\Debug\capaNegocios.dll
+C:\CellPhoneStore\capaNegocios\bin\Debug\capaNegocios.pdb
+C:\CellPhoneStore\capaNegocios\bin\Debug\capaDatos.dll
+C:\CellPhoneStore\capaNegocios\bin\Debug\capaDatos.pdb
+C:\CellPhoneStore\capaNegocios\obj\Debug\capaNegocios.csprojResolveAssemblyReference.cache
+C:\CellPhoneStore\capaNegocios\obj\Debug\capaNegocios.dll
+C:\CellPhoneStore\capaNegocios\obj\Debug\capaNegocios.pdb

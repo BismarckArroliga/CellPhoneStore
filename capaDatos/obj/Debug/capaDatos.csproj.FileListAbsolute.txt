@@ -1,0 +1,4 @@
+C:\CellPhoneStore\capaDatos\bin\Debug\capaDatos.dll
+C:\CellPhoneStore\capaDatos\bin\Debug\capaDatos.pdb
+C:\CellPhoneStore\capaDatos\obj\Debug\capaDatos.dll
+C:\CellPhoneStore\capaDatos\obj\Debug\capaDatos.pdb

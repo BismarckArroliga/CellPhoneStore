@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border td, table.border th {
+                border: 1px solid #444;
+                padding: 6px;
+                font-size: 13px;
+            }
+            .total {
+                background: steelBlue;
+            }
+    </style>
+</head>
+<body>
+    <div class="max-width">
+        <table style="width: 100%;">
+            <tr height="120">
+                <td style="width: 20%;"></td>
+                <td style="width: 60%;">
+                    <table style="width: 100%;">
+                        <tr><td align="center" style="font-size: 22px; font-weight:700">Compras de Día</td></tr>
+                        <tr><td align="center">Sistema de ventas de celulares</td></tr>
+                        <tr><td align="center">Fecha: @Fecha</td></tr>
+                    </table>
+                </td>
+                <td style="width: 20%;"></td>
+            </tr>
+            <tr><td colspan="3"></td></tr>
+            <tr>
+                <td colspan="3">
+                    <table class="border" style="width: 100%;">
+                        <thead style="background: #D8D8D9;">
+                            <tr>
+                                <th>Compra_ID</th>
+                                <th>Fecha</th>
+                                <th>Producto</th>
+                                <th>Proveedor</th>
+                                <th>Cantidad</th>
+                                <th>Costo</th>
+                                <th>Descuento</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             @Filas
+                            <tr>
+                                <td colspan="6" style="border: 0px !important"></td>
+                                <td align="right">Monto Final</td>
+                                <td class="total">@MontoFinal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
